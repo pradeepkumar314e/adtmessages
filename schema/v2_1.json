@@ -1,0 +1,5410 @@
+{
+    "version": "V2_1",
+    "messages": {
+        "MCF_Q02": {
+            "name": "MCF_Q02",
+            "desc": "MCF_Q02 - null",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "MSA",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A08": {
+            "name": "ADT_A08",
+            "desc": "ADT_A08 - Update Patient Information",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "NK1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ORM_O01": {
+            "name": "ORM_O01",
+            "desc": "ORM_O01 - Order Message",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "NTE",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615
+                },
+                {
+                    "name": "PATIENT",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "ORDER",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                }
+            ]
+        },
+        "ADT_A05": {
+            "name": "ADT_A05",
+            "desc": "ADT_A05 - admit a Patient",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "NK1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A03": {
+            "name": "ADT_A03",
+            "desc": "ADT_A03 - Discharge a Patient",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ORR_O02": {
+            "name": "ORR_O02",
+            "desc": "ORR_O02 - Respone Message",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "MSA",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "NTE",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615
+                },
+                {
+                    "name": "PATIENT",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A13": {
+            "name": "ADT_A13",
+            "desc": "ADT_A13 - Cancel Discharge",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "DSR_Q01": {
+            "name": "DSR_Q01",
+            "desc": "DSR_Q01 - Display response message",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "MSA",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRD",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRF",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "DSP",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                },
+                {
+                    "name": "DSC",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A02": {
+            "name": "ADT_A02",
+            "desc": "ADT_A02 - Transfer a Patient",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A21": {
+            "name": "ADT_A21",
+            "desc": "ADT_A21 - A Patient Goes On A \\\"Leave Of Absence\\\"",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A15": {
+            "name": "ADT_A15",
+            "desc": "ADT_A15 - Pending Transfer",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A06": {
+            "name": "ADT_A06",
+            "desc": "ADT_A06 - Transfer an Outpatient to Inpatient",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ORU_R01": {
+            "name": "ORU_R01",
+            "desc": "ORU_R01 - Unsolicited transmission of requested Obersvation",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PATIENT_RESULT",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                },
+                {
+                    "name": "DSC",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A10": {
+            "name": "ADT_A10",
+            "desc": "ADT_A10 - Patient Arriving",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A24": {
+            "name": "ADT_A24",
+            "desc": "ADT_A24 - Create a Patient Link Transaction",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID2",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A11": {
+            "name": "ADT_A11",
+            "desc": "ADT_A11 - Cancel Admit",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADR_A19": {
+            "name": "ADR_A19",
+            "desc": "ADR_A19 - Patient query",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "MSA",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRD",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QUERY_RESPONSE",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                },
+                {
+                    "name": "DSC",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "BAR_P02": {
+            "name": "BAR_P02",
+            "desc": "BAR_P02 - Purge Patient Accounts",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PATIENT",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                }
+            ]
+        },
+        "ADT_A16": {
+            "name": "ADT_A16",
+            "desc": "ADT_A16 - Pending Discharge",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A14": {
+            "name": "ADT_A14",
+            "desc": "ADT_A14 - Pending Admit",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "NK1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A20": {
+            "name": "ADT_A20",
+            "desc": "ADT_A20 - Nursing/Census Application Updates",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "NPU",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "QRY_Q01": {
+            "name": "QRY_Q01",
+            "desc": "QRY_Q01 - A Query is Made for Immediate Response",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRD",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRF",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "DSC",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "QRY_Q02": {
+            "name": "QRY_Q02",
+            "desc": "QRY_Q02 - A Query is Sent for Deferred Response",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRD",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRF",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "DSC",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A09": {
+            "name": "ADT_A09",
+            "desc": "ADT_A09 - Patient Departing",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A01": {
+            "name": "ADT_A01",
+            "desc": "ADT_A01 - Admit a Patient",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "NK1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A22": {
+            "name": "ADT_A22",
+            "desc": "ADT_A22 - A Patient Returns From A \\\"Leave Of Absence\\\"",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "QRY_A19": {
+            "name": "QRY_A19",
+            "desc": "QRY_A19 - Patient Query",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRD",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "BAR_P01": {
+            "name": "BAR_P01",
+            "desc": "BAR_P01 - Add and Update Patient Accounts",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "VISIT",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                }
+            ]
+        },
+        "ORU_R03": {
+            "name": "ORU_R03",
+            "desc": "ORU_R03 - Display oriented results, queyr/unsol. update",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PATIENT_RESULT",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                },
+                {
+                    "name": "DSC",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "DSR_Q03": {
+            "name": "DSR_Q03",
+            "desc": "DSR_Q03 - Deferred Response to A Query",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRD",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "QRF",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "DSP",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                },
+                {
+                    "name": "DSC",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A12": {
+            "name": "ADT_A12",
+            "desc": "ADT_A12 - Cancel Transfer",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A04": {
+            "name": "ADT_A04",
+            "desc": "ADT_A04 - Register a Patient",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "NK1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "DG1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A17": {
+            "name": "ADT_A17",
+            "desc": "ADT_A17 - Swap Patients",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PATIENT",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                }
+            ]
+        },
+        "ACK_": {
+            "name": "ACK_",
+            "desc": "ACK_ - null",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "MSA",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "ERR",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "DFT_P03": {
+            "name": "DFT_P03",
+            "desc": "DFT_P03 - Post Detail Financial Transactions",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "FT1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615
+                }
+            ]
+        },
+        "ADT_A07": {
+            "name": "ADT_A07",
+            "desc": "ADT_A07 - Transfer an Inpatient to Outpatient",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A18": {
+            "name": "ADT_A18",
+            "desc": "ADT_A18 - Merge Patient Information",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "MRG",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        "ADT_A23": {
+            "name": "ADT_A23",
+            "desc": "ADT_A23 - Delete a Patient Record",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "EVN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "PV1",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        "UDM_Q05": {
+            "name": "UDM_Q05",
+            "desc": "UDM_Q05 - Unsolicited Updates, ODM Message, Trigger Event Q05",
+            "segments": [
+                {
+                    "name": "MSH",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "URD",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                },
+                {
+                    "name": "URS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "DSP",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615
+                },
+                {
+                    "name": "DSC",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        }
+    },
+    "segments": {
+        "QRF": {
+            "name": "QRF",
+            "long_name": "Query Filter",
+            "fields": [
+                {
+                    "name": "WHERE SUBJECT FILTER",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "WHEN DATA START DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "WHEN DATA END DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "WHAT USER QUALIFIER",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "OTHER QRY SUBJECT FILTER",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                }
+            ]
+        },
+        "MSA": {
+            "name": "MSA",
+            "long_name": "Message Acknowledgment",
+            "fields": [
+                {
+                    "name": "ACKNOWLEDGMENT CODE",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "MESSAGE CONTROL ID",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "TEXT MESSAGE",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 80,
+                    "components": []
+                },
+                {
+                    "name": "EXPECTED SEQUENCE NUMBER",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 15,
+                    "components": []
+                },
+                {
+                    "name": "DELAYED ACKNOWLEDGMENT TYPE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                }
+            ]
+        },
+        "DG1": {
+            "name": "DG1",
+            "long_name": "Diagnosis",
+            "fields": [
+                {
+                    "name": "SET ID - DIAGNOSIS",
+                    "data_type": "SI",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "DIAGNOSIS CODING METHOD",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "DIAGNOSIS CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "DIAGNOSIS DESCRIPTION",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 40,
+                    "components": []
+                },
+                {
+                    "name": "DIAGNOSIS DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "DIAGNOSIS/DRG TYPE",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "MAJOR DIAGNOSTIC CATEGORY",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "DIAGNOSTIC RELATED GROUP",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "DRG APPROVAL INDICATOR",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "DRG GROUPER REVIEW CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "OUTLIER TYPE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "OUTLIER DAYS",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "OUTLIER COST",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "GROUPER VERSION AND TYPE",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                }
+            ]
+        },
+        "NTE": {
+            "name": "NTE",
+            "long_name": "Notes And Comments",
+            "fields": [
+                {
+                    "name": "SET ID - NOTES AND COMMENTS",
+                    "data_type": "SI",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "SOURCE OF COMMENT",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "COMMENT",
+                    "data_type": "TX",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": 120,
+                    "components": []
+                }
+            ]
+        },
+        "VISIT": {
+            "name": "VISIT",
+            "long_name": "VISIT",
+            "fields": [
+                {
+                    "name": "PV1",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - PATIENT VISIT",
+                            "data_type": "SI",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "PATIENT CLASS",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 1
+                        },
+                        {
+                            "name": "ASSIGNED PATIENT LOCATION",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 12
+                        },
+                        {
+                            "name": "ADMISSION TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "PRE-ADMIT NUMBER",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 20
+                        },
+                        {
+                            "name": "PRIOR PATIENT LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "ATTENDING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "REFERRING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "CONSULTING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "HOSPITAL SERVICE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "TEMPORARY LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "PRE-ADMIT TEST INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "RE-ADMISSION INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "ADMIT SOURCE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "AMBULATORY STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "VIP INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "ADMITTING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "PATIENT TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "VISIT NUMBER",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "FINANCIAL CLASS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 11
+                        },
+                        {
+                            "name": "CHARGE PRICE INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "COURTESY CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CREDIT RATING",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CONTRACT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CONTRACT EFFECTIVE DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "CONTRACT AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "CONTRACT PERIOD",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "INTEREST CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "TRANSFER TO BAD DEBT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "TRANSFER TO BAD DEBT DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "BAD DEBT AGENCY CODE",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 10
+                        },
+                        {
+                            "name": "BAD DEBT TRANSFER AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "BAD DEBT RECOVERY AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "DELETE ACCOUNT INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "DELETE ACCOUNT DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "DISCHARGE DISPOSITION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "DISCHARGED TO LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "DIET TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "SERVICING FACILITY",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "BED STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "ACCOUNT STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "PENDING LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "PRIOR TEMPORARY LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "ADMIT DATE/TIME",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "DISCHARGE DATE/TIME",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "CURRENT PATIENT BALANCE",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL CHARGES",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL ADJUSTMENTS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL PAYMENTS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        }
+                    ]
+                },
+                {
+                    "name": "DG1",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - DIAGNOSIS",
+                            "data_type": "SI",
+                            "usage": true,
+                            "length": 4
+                        },
+                        {
+                            "name": "DIAGNOSIS CODING METHOD",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 2
+                        },
+                        {
+                            "name": "DIAGNOSIS CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "DIAGNOSIS DESCRIPTION",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "DIAGNOSIS DATE/TIME",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "DIAGNOSIS/DRG TYPE",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 2
+                        },
+                        {
+                            "name": "MAJOR DIAGNOSTIC CATEGORY",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "DIAGNOSTIC RELATED GROUP",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "DRG APPROVAL INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "DRG GROUPER REVIEW CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "OUTLIER TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "OUTLIER DAYS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "OUTLIER COST",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "GROUPER VERSION AND TYPE",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "PR1",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - PROCEDURE",
+                            "data_type": "SI",
+                            "usage": true,
+                            "length": 4
+                        },
+                        {
+                            "name": "PROCEDURE CODING METHOD.",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 2
+                        },
+                        {
+                            "name": "PROCEDURE CODE",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 10
+                        },
+                        {
+                            "name": "PROCEDURE DESCRIPTION",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "PROCEDURE DATE/TIME",
+                            "data_type": "TS",
+                            "usage": true,
+                            "length": 19
+                        },
+                        {
+                            "name": "PROCEDURE TYPE",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 2
+                        },
+                        {
+                            "name": "PROCEDURE MINUTES",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "ANESTHESIOLOGIST",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "ANESTHESIA CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "ANESTHESIA MINUTES",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "SURGEON",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "RESIDENT CODE",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "CONSENT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "GT1",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - GUARANTOR",
+                            "data_type": "SI",
+                            "usage": true,
+                            "length": 4
+                        },
+                        {
+                            "name": "GUARANTOR NUMBER",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 20
+                        },
+                        {
+                            "name": "GUARANTOR NAME",
+                            "data_type": "PN",
+                            "usage": true,
+                            "length": 48
+                        },
+                        {
+                            "name": "GUARANTOR SPOUSE NAME",
+                            "data_type": "PN",
+                            "usage": false,
+                            "length": 48
+                        },
+                        {
+                            "name": "GUARANTOR ADDRESS",
+                            "data_type": "AD",
+                            "usage": false,
+                            "length": 106
+                        },
+                        {
+                            "name": "GUARANTOR PH. NUM.- HOME",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "GUARANTOR PH. NUM-BUSINESS",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "GUARANTOR DATE OF BIRTH",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "GUARANTOR SEX",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "GUARANTOR TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "GUARANTOR RELATIONSHIP",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "GUARANTOR SSN",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 11
+                        },
+                        {
+                            "name": "GUARANTOR DATE - BEGIN",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "GUARANTOR DATE - END",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "GUARANTOR PRIORITY",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "GUARANTOR EMPLOYER NAME",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 45
+                        },
+                        {
+                            "name": "GUARANTOR EMPLOYER ADDRESS",
+                            "data_type": "AD",
+                            "usage": false,
+                            "length": 106
+                        },
+                        {
+                            "name": "GUARANTOR EMPLOY PHONE #",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "GUARANTOR EMPLOYEE ID NUM",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 20
+                        },
+                        {
+                            "name": "GUARANTOR EMPLOYMENT STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "NK1",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - NEXT OF KIN",
+                            "data_type": "SI",
+                            "usage": true,
+                            "length": 4
+                        },
+                        {
+                            "name": "NEXT OF KIN NAME",
+                            "data_type": "PN",
+                            "usage": false,
+                            "length": 48
+                        },
+                        {
+                            "name": "NEXT OF KIN RELATIONSHIP",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 15
+                        },
+                        {
+                            "name": "NEXT OF KIN - ADDRESS",
+                            "data_type": "AD",
+                            "usage": false,
+                            "length": 106
+                        },
+                        {
+                            "name": "NEXT OF KIN - PHONE NUMBER",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        }
+                    ]
+                },
+                {
+                    "name": "IN1",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - INSURANCE",
+                            "data_type": "SI",
+                            "usage": true,
+                            "length": 4
+                        },
+                        {
+                            "name": "INSURANCE PLAN ID",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 8
+                        },
+                        {
+                            "name": "INSURANCE COMPANY ID",
+                            "data_type": "ST",
+                            "usage": true,
+                            "length": 6
+                        },
+                        {
+                            "name": "INSURANCE COMPANY NAME",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 45
+                        },
+                        {
+                            "name": "INSURANCE COMPANY ADDRESS",
+                            "data_type": "AD",
+                            "usage": false,
+                            "length": 106
+                        },
+                        {
+                            "name": "INSURANCE CO. CONTACT PERS",
+                            "data_type": "PN",
+                            "usage": false,
+                            "length": 48
+                        },
+                        {
+                            "name": "INSURANCE CO PHONE NUMBER",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "GROUP NUMBER",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "GROUP NAME",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 35
+                        },
+                        {
+                            "name": "INSURED'S GROUP EMP. ID",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "INSURED'S GROUP EMP. NAME",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 45
+                        },
+                        {
+                            "name": "PLAN EFFECTIVE DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "PLAN EXPIRATION DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "AUTHORIZATION INFORMATION",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 55
+                        },
+                        {
+                            "name": "PLAN TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "NAME OF INSURED",
+                            "data_type": "PN",
+                            "usage": false,
+                            "length": 48
+                        },
+                        {
+                            "name": "INSURED'S RELATIONSHIP TO PATIENT",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "INSURED'S DATE OF BIRTH",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "INSURED'S ADDRESS",
+                            "data_type": "AD",
+                            "usage": false,
+                            "length": 106
+                        },
+                        {
+                            "name": "ASSIGNMENT OF BENEFITS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "COORDINATION OF BENEFITS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "COORD OF BEN. PRIORITY",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "NOTICE OF ADMISSION CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "NOTICE OF ADMISSION DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "RPT OF ELIGIBILITY CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "RPT OF ELIGIBILITY DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "RELEASE INFORMATION CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "PRE-ADMIT CERT. (PAC)",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 15
+                        },
+                        {
+                            "name": "VERIFICATION DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "VERIFICATION BY",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "TYPE OF AGREEMENT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "BILLING STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "LIFETIME RESERVE DAYS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "DELAY BEFORE L. R. DAY",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "COMPANY PLAN CODE",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "POLICY NUMBER",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 15
+                        },
+                        {
+                            "name": "POLICY DEDUCTIBLE",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "POLICY LIMIT - AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "POLICY LIMIT - DAYS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "ROOM RATE - SEMI-PRIVATE",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "ROOM RATE - PRIVATE",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "INSURED'S EMPLOYMENT STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "INSURED'S SEX",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "INSURED'S EMPLOYER ADDRESS",
+                            "data_type": "AD",
+                            "usage": false,
+                            "length": 106
+                        }
+                    ]
+                },
+                {
+                    "name": "ACC",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "ACCIDENT DATE/TIME",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "ACCIDENT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "ACCIDENT LOCATION",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 25
+                        }
+                    ]
+                },
+                {
+                    "name": "UB1",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - UB82",
+                            "data_type": "SI",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "BLOOD DEDUCTIBLE",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "BLOOD FURN.-PINTS OF (40)",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "BLOOD REPLACED-PINTS (41)",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "BLOOD NOT RPLCD-PINTS(42)",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CO-INSURANCE DAYS (25)",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CONDITION CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "COVERED DAYS - (23)",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "NON COVERED DAYS - (24)",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "VALUE AMOUNT & CODE",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "NUMBER OF GRACE DAYS (90)",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "SPEC. PROG. INDICATOR(44)",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "PSRO/UR APPROVAL IND. (87)",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "PSRO/UR APRVD STAY-FM(88)",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "PSRO/UR APRVD STAY-TO(89)",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "OCCURRENCE (28-32)",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 20
+                        },
+                        {
+                            "name": "OCCURRENCE SPAN (33)",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "OCCURRENCE SPAN START DATE(33)",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "OCCUR. SPAN END DATE (33)",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "UB-82 LOCATOR 2",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 30
+                        },
+                        {
+                            "name": "UB-82 LOCATOR 9",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 7
+                        },
+                        {
+                            "name": "UB-82 LOCATOR 27",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "UB-82 LOCATOR 45",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 17
+                        }
+                    ]
+                }
+            ]
+        },
+        "QRD": {
+            "name": "QRD",
+            "long_name": "Query Definition",
+            "fields": [
+                {
+                    "name": "QUERY DATE/TIME",
+                    "data_type": "TS",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "QUERY FORMAT CODE",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "QUERY PRIORITY",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "QUERY ID",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 10,
+                    "components": []
+                },
+                {
+                    "name": "DEFERRED RESPONSE TYPE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "DEFERRED RESPONSE DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "QUANTITY LIMITED REQUEST",
+                    "data_type": "CQ",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 5,
+                    "components": []
+                },
+                {
+                    "name": "WHO SUBJECT FILTER",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "WHAT SUBJECT FILTER",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "WHAT DEPARTMENT DATA CODE",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "WHAT DATA CODE VALUE QUAL.",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "QUERY RESULTS LEVEL",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                }
+            ]
+        },
+        "ORDER": {
+            "name": "ORDER",
+            "long_name": "ORDER",
+            "fields": [
+                {
+                    "name": "ORC",
+                    "data_type": null,
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "ORDER CONTROL",
+                            "data_type": "ST",
+                            "usage": true,
+                            "length": 2
+                        },
+                        {
+                            "name": "PLACER ORDER #",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 75
+                        },
+                        {
+                            "name": "FILLER ORDER #",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 75
+                        },
+                        {
+                            "name": "PLACER GROUP #",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 75
+                        },
+                        {
+                            "name": "ORDER STATUS",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "RESPONSE FLAG",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "TIMING/QUANTITY",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 200
+                        },
+                        {
+                            "name": "PARENT",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 200
+                        },
+                        {
+                            "name": "DATE/TIME OF TRANSACTION",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "ENTERED BY",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 80
+                        },
+                        {
+                            "name": "VERIFIED BY",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 80
+                        },
+                        {
+                            "name": "ORDERING PROVIDER",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 80
+                        },
+                        {
+                            "name": "ENTERER'S LOCATION",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 80
+                        },
+                        {
+                            "name": "CALL BACK PHONE NUMBER",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        }
+                    ]
+                },
+                {
+                    "name": "ORDER_DETAIL",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "CHOICE",
+                            "data_type": null,
+                            "usage": true,
+                            "length": null
+                        },
+                        {
+                            "name": "NTE3",
+                            "data_type": null,
+                            "usage": false,
+                            "length": null
+                        },
+                        {
+                            "name": "OBX",
+                            "data_type": null,
+                            "usage": false,
+                            "length": null
+                        },
+                        {
+                            "name": "NTE4",
+                            "data_type": null,
+                            "usage": false,
+                            "length": null
+                        }
+                    ]
+                },
+                {
+                    "name": "BLG",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "WHEN TO CHARGE",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 15
+                        },
+                        {
+                            "name": "CHARGE TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 50
+                        },
+                        {
+                            "name": "ACCOUNT ID",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        "FT1": {
+            "name": "FT1",
+            "long_name": "Financial Transaction",
+            "fields": [
+                {
+                    "name": "SET ID - FINANCIAL TRANSACTION",
+                    "data_type": "SI",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION ID",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION BATCH ID",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 5,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION DATE",
+                    "data_type": "DT",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION POSTING DATE",
+                    "data_type": "DT",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION TYPE",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION CODE",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION DESCRIPTION",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 40,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION DESCRIPTION - ALT",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 40,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION AMOUNT - EXTENDED",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION QUANTITY",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "TRANSACTION AMOUNT - UNIT",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "DEPARTMENT CODE",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "INSURANCE PLAN ID",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "INSURANCE AMOUNT",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT LOCATION",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "FEE SCHEDULE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT TYPE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "DIAGNOSIS CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "PERFORMED BY CODE",
+                    "data_type": "CN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 60,
+                    "components": []
+                },
+                {
+                    "name": "ORDERED BY CODE",
+                    "data_type": "CN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 60,
+                    "components": []
+                },
+                {
+                    "name": "UNIT COST",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 12,
+                    "components": []
+                }
+            ]
+        },
+        "DSP": {
+            "name": "DSP",
+            "long_name": "Display Data",
+            "fields": [
+                {
+                    "name": "SET ID - DISPLAY DATA",
+                    "data_type": "SI",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "DISPLAY LEVEL",
+                    "data_type": "SI",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "DATA LINE",
+                    "data_type": "TX",
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": 300,
+                    "components": []
+                },
+                {
+                    "name": "LOGICAL BREAK POINT",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "RESULT ID",
+                    "data_type": "TX",
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": 20,
+                    "components": []
+                }
+            ]
+        },
+        "DSC": {
+            "name": "DSC",
+            "long_name": "Continuation Pointer",
+            "fields": [
+                {
+                    "name": "CONTINUATION POINTER",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 60,
+                    "components": []
+                }
+            ]
+        },
+        "PID2": {
+            "name": "PID2",
+            "long_name": "Patient Identification",
+            "fields": [
+                {
+                    "name": "SET ID - PATIENT ID",
+                    "data_type": "SI",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ID EXTERNAL (EXTERNAL ID)",
+                    "data_type": "CK",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ID INTERNAL (INTERNAL ID)",
+                    "data_type": "CK",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "ALTERNATE PATIENT ID",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT NAME",
+                    "data_type": "PN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 48,
+                    "components": []
+                },
+                {
+                    "name": "MOTHER'S MAIDEN NAME",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 30,
+                    "components": []
+                },
+                {
+                    "name": "DATE OF BIRTH",
+                    "data_type": "DT",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "SEX",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ALIAS",
+                    "data_type": "PN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 48,
+                    "components": []
+                },
+                {
+                    "name": "ETHNIC GROUP",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ADDRESS",
+                    "data_type": "AD",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 106,
+                    "components": []
+                },
+                {
+                    "name": "COUNTY CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "PHONE NUMBER - HOME",
+                    "data_type": "TN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 40,
+                    "components": []
+                },
+                {
+                    "name": "PHONE NUMBER - BUSINESS",
+                    "data_type": "TN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 40,
+                    "components": []
+                },
+                {
+                    "name": "LANGUAGE - PATIENT",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 25,
+                    "components": []
+                },
+                {
+                    "name": "MARITAL STATUS",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "RELIGION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ACCOUNT NUMBER",
+                    "data_type": "CK",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "SSN NUMBER - PATIENT",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "DRIVER'S LIC NUM - PATIENT",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 25,
+                    "components": []
+                }
+            ]
+        },
+        "PV1": {
+            "name": "PV1",
+            "long_name": "Patient Visit",
+            "fields": [
+                {
+                    "name": "SET ID - PATIENT VISIT",
+                    "data_type": "SI",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT CLASS",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "ASSIGNED PATIENT LOCATION",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "ADMISSION TYPE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "PRE-ADMIT NUMBER",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "PRIOR PATIENT LOCATION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "ATTENDING DOCTOR",
+                    "data_type": "CN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 60,
+                    "components": []
+                },
+                {
+                    "name": "REFERRING DOCTOR",
+                    "data_type": "CN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 60,
+                    "components": []
+                },
+                {
+                    "name": "CONSULTING DOCTOR",
+                    "data_type": "CN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 60,
+                    "components": []
+                },
+                {
+                    "name": "HOSPITAL SERVICE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "TEMPORARY LOCATION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "PRE-ADMIT TEST INDICATOR",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "RE-ADMISSION INDICATOR",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "ADMIT SOURCE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "AMBULATORY STATUS",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "VIP INDICATOR",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "ADMITTING DOCTOR",
+                    "data_type": "CN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 60,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT TYPE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "VISIT NUMBER",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "FINANCIAL CLASS",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 11,
+                    "components": []
+                },
+                {
+                    "name": "CHARGE PRICE INDICATOR",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "COURTESY CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "CREDIT RATING",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "CONTRACT CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "CONTRACT EFFECTIVE DATE",
+                    "data_type": "DT",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "CONTRACT AMOUNT",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "CONTRACT PERIOD",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "INTEREST CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "TRANSFER TO BAD DEBT CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "TRANSFER TO BAD DEBT DATE",
+                    "data_type": "DT",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "BAD DEBT AGENCY CODE",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 10,
+                    "components": []
+                },
+                {
+                    "name": "BAD DEBT TRANSFER AMOUNT",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "BAD DEBT RECOVERY AMOUNT",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "DELETE ACCOUNT INDICATOR",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "DELETE ACCOUNT DATE",
+                    "data_type": "DT",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "DISCHARGE DISPOSITION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "DISCHARGED TO LOCATION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "DIET TYPE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "SERVICING FACILITY",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "BED STATUS",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "ACCOUNT STATUS",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 2,
+                    "components": []
+                },
+                {
+                    "name": "PENDING LOCATION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "PRIOR TEMPORARY LOCATION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "ADMIT DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "DISCHARGE DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "CURRENT PATIENT BALANCE",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "TOTAL CHARGES",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "TOTAL ADJUSTMENTS",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "TOTAL PAYMENTS",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                }
+            ]
+        },
+        "NK1": {
+            "name": "NK1",
+            "long_name": "Next Of Kin",
+            "fields": [
+                {
+                    "name": "SET ID - NEXT OF KIN",
+                    "data_type": "SI",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "NEXT OF KIN NAME",
+                    "data_type": "PN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 48,
+                    "components": []
+                },
+                {
+                    "name": "NEXT OF KIN RELATIONSHIP",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 15,
+                    "components": []
+                },
+                {
+                    "name": "NEXT OF KIN - ADDRESS",
+                    "data_type": "AD",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 106,
+                    "components": []
+                },
+                {
+                    "name": "NEXT OF KIN - PHONE NUMBER",
+                    "data_type": "TN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 40,
+                    "components": []
+                }
+            ]
+        },
+        "PATIENT": {
+            "name": "PATIENT",
+            "long_name": "PATIENT",
+            "fields": [
+                {
+                    "name": "PID",
+                    "data_type": null,
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - PATIENT ID",
+                            "data_type": "SI",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "PATIENT ID EXTERNAL (EXTERNAL ID)",
+                            "data_type": "CK",
+                            "usage": false,
+                            "length": 16
+                        },
+                        {
+                            "name": "PATIENT ID INTERNAL (INTERNAL ID)",
+                            "data_type": "CK",
+                            "usage": true,
+                            "length": 16
+                        },
+                        {
+                            "name": "ALTERNATE PATIENT ID",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "PATIENT NAME",
+                            "data_type": "PN",
+                            "usage": true,
+                            "length": 48
+                        },
+                        {
+                            "name": "MOTHER'S MAIDEN NAME",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 30
+                        },
+                        {
+                            "name": "DATE OF BIRTH",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "SEX",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "PATIENT ALIAS",
+                            "data_type": "PN",
+                            "usage": false,
+                            "length": 48
+                        },
+                        {
+                            "name": "ETHNIC GROUP",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "PATIENT ADDRESS",
+                            "data_type": "AD",
+                            "usage": false,
+                            "length": 106
+                        },
+                        {
+                            "name": "COUNTY CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "PHONE NUMBER - HOME",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "PHONE NUMBER - BUSINESS",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "LANGUAGE - PATIENT",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 25
+                        },
+                        {
+                            "name": "MARITAL STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "RELIGION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "PATIENT ACCOUNT NUMBER",
+                            "data_type": "CK",
+                            "usage": false,
+                            "length": 20
+                        },
+                        {
+                            "name": "SSN NUMBER - PATIENT",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 16
+                        },
+                        {
+                            "name": "DRIVER'S LIC NUM - PATIENT",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 25
+                        }
+                    ]
+                },
+                {
+                    "name": "PV1",
+                    "data_type": null,
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - PATIENT VISIT",
+                            "data_type": "SI",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "PATIENT CLASS",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 1
+                        },
+                        {
+                            "name": "ASSIGNED PATIENT LOCATION",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 12
+                        },
+                        {
+                            "name": "ADMISSION TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "PRE-ADMIT NUMBER",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 20
+                        },
+                        {
+                            "name": "PRIOR PATIENT LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "ATTENDING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "REFERRING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "CONSULTING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "HOSPITAL SERVICE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "TEMPORARY LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "PRE-ADMIT TEST INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "RE-ADMISSION INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "ADMIT SOURCE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "AMBULATORY STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "VIP INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "ADMITTING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "PATIENT TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "VISIT NUMBER",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "FINANCIAL CLASS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 11
+                        },
+                        {
+                            "name": "CHARGE PRICE INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "COURTESY CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CREDIT RATING",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CONTRACT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CONTRACT EFFECTIVE DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "CONTRACT AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "CONTRACT PERIOD",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "INTEREST CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "TRANSFER TO BAD DEBT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "TRANSFER TO BAD DEBT DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "BAD DEBT AGENCY CODE",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 10
+                        },
+                        {
+                            "name": "BAD DEBT TRANSFER AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "BAD DEBT RECOVERY AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "DELETE ACCOUNT INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "DELETE ACCOUNT DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "DISCHARGE DISPOSITION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "DISCHARGED TO LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "DIET TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "SERVICING FACILITY",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "BED STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "ACCOUNT STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "PENDING LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "PRIOR TEMPORARY LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "ADMIT DATE/TIME",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "DISCHARGE DATE/TIME",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "CURRENT PATIENT BALANCE",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL CHARGES",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL ADJUSTMENTS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL PAYMENTS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        "PID": {
+            "name": "PID",
+            "long_name": "Patient Identification",
+            "fields": [
+                {
+                    "name": "SET ID - PATIENT ID",
+                    "data_type": "SI",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ID EXTERNAL (EXTERNAL ID)",
+                    "data_type": "CK",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ID INTERNAL (INTERNAL ID)",
+                    "data_type": "CK",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "ALTERNATE PATIENT ID",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT NAME",
+                    "data_type": "PN",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 48,
+                    "components": []
+                },
+                {
+                    "name": "MOTHER'S MAIDEN NAME",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 30,
+                    "components": []
+                },
+                {
+                    "name": "DATE OF BIRTH",
+                    "data_type": "DT",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "SEX",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ALIAS",
+                    "data_type": "PN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 48,
+                    "components": []
+                },
+                {
+                    "name": "ETHNIC GROUP",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ADDRESS",
+                    "data_type": "AD",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 106,
+                    "components": []
+                },
+                {
+                    "name": "COUNTY CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "PHONE NUMBER - HOME",
+                    "data_type": "TN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 40,
+                    "components": []
+                },
+                {
+                    "name": "PHONE NUMBER - BUSINESS",
+                    "data_type": "TN",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 40,
+                    "components": []
+                },
+                {
+                    "name": "LANGUAGE - PATIENT",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 25,
+                    "components": []
+                },
+                {
+                    "name": "MARITAL STATUS",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "RELIGION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "PATIENT ACCOUNT NUMBER",
+                    "data_type": "CK",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "SSN NUMBER - PATIENT",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "DRIVER'S LIC NUM - PATIENT",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 25,
+                    "components": []
+                }
+            ]
+        },
+        "EVN": {
+            "name": "EVN",
+            "long_name": "Event Type",
+            "fields": [
+                {
+                    "name": "EVENT TYPE CODE",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "DATE/TIME OF EVENT",
+                    "data_type": "TS",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "DATE/TIME PLANNED EVENT",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "EVENT REASON CODE",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                }
+            ]
+        },
+        "NPU": {
+            "name": "NPU",
+            "long_name": "Non - patient Update",
+            "fields": [
+                {
+                    "name": "BED LOCATION",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 12,
+                    "components": []
+                },
+                {
+                    "name": "BED STATUS",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                }
+            ]
+        },
+        "MRG": {
+            "name": "MRG",
+            "long_name": "Merge Patient Information",
+            "fields": [
+                {
+                    "name": "PRIOR PATIENT ID - INTERNAL",
+                    "data_type": "CK",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "PRIOR ALTERNATE PATIENT ID",
+                    "data_type": "CK",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 16,
+                    "components": []
+                },
+                {
+                    "name": "PRIOR PATIENT ACCOUNT NUMBER",
+                    "data_type": "CK",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                }
+            ]
+        },
+        "MSH": {
+            "name": "MSH",
+            "long_name": "Message Header",
+            "fields": [
+                {
+                    "name": "FIELD SEPARATOR",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "ENCODING CHARACTERS",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 4,
+                    "components": []
+                },
+                {
+                    "name": "SENDING APPLICATION",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 15,
+                    "components": []
+                },
+                {
+                    "name": "SENDING FACILITY",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "RECEIVING APPLICATION",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 15,
+                    "components": []
+                },
+                {
+                    "name": "RECEIVING FACILITY",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 30,
+                    "components": []
+                },
+                {
+                    "name": "DATE/TIME OF MESSAGE",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "Security",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 40,
+                    "components": []
+                },
+                {
+                    "name": "MESSAGE TYPE",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 7,
+                    "components": []
+                },
+                {
+                    "name": "MESSAGE CONTROL ID",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "PROCESSING ID",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "VERSION ID",
+                    "data_type": "NM",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 8,
+                    "components": []
+                },
+                {
+                    "name": "SEQUENCE NUMBER",
+                    "data_type": "NM",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 15,
+                    "components": []
+                },
+                {
+                    "name": "CONTINUATION POINTER",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 180,
+                    "components": []
+                }
+            ]
+        },
+        "PATIENT_RESULT": {
+            "name": "PATIENT_RESULT",
+            "long_name": "PATIENT_RESULT",
+            "fields": [
+                {
+                    "name": "PATIENT",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "PID",
+                            "data_type": null,
+                            "usage": true,
+                            "length": null
+                        },
+                        {
+                            "name": "NTE",
+                            "data_type": null,
+                            "usage": false,
+                            "length": null
+                        },
+                        {
+                            "name": "PV1",
+                            "data_type": null,
+                            "usage": false,
+                            "length": null
+                        }
+                    ]
+                },
+                {
+                    "name": "ORDER_OBSERVATION",
+                    "data_type": null,
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "ORC",
+                            "data_type": null,
+                            "usage": false,
+                            "length": null
+                        },
+                        {
+                            "name": "OBR",
+                            "data_type": null,
+                            "usage": true,
+                            "length": null
+                        },
+                        {
+                            "name": "NTE2",
+                            "data_type": null,
+                            "usage": false,
+                            "length": null
+                        },
+                        {
+                            "name": "OBSERVATION",
+                            "data_type": null,
+                            "usage": true,
+                            "length": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "QUERY_RESPONSE": {
+            "name": "QUERY_RESPONSE",
+            "long_name": "QUERY_RESPONSE",
+            "fields": [
+                {
+                    "name": "EVN",
+                    "data_type": null,
+                    "usage": false,
+                    "min": 0,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "EVENT TYPE CODE",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 3
+                        },
+                        {
+                            "name": "DATE/TIME OF EVENT",
+                            "data_type": "TS",
+                            "usage": true,
+                            "length": 19
+                        },
+                        {
+                            "name": "DATE/TIME PLANNED EVENT",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "EVENT REASON CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "PID",
+                    "data_type": null,
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - PATIENT ID",
+                            "data_type": "SI",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "PATIENT ID EXTERNAL (EXTERNAL ID)",
+                            "data_type": "CK",
+                            "usage": false,
+                            "length": 16
+                        },
+                        {
+                            "name": "PATIENT ID INTERNAL (INTERNAL ID)",
+                            "data_type": "CK",
+                            "usage": true,
+                            "length": 16
+                        },
+                        {
+                            "name": "ALTERNATE PATIENT ID",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "PATIENT NAME",
+                            "data_type": "PN",
+                            "usage": true,
+                            "length": 48
+                        },
+                        {
+                            "name": "MOTHER'S MAIDEN NAME",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 30
+                        },
+                        {
+                            "name": "DATE OF BIRTH",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "SEX",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "PATIENT ALIAS",
+                            "data_type": "PN",
+                            "usage": false,
+                            "length": 48
+                        },
+                        {
+                            "name": "ETHNIC GROUP",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "PATIENT ADDRESS",
+                            "data_type": "AD",
+                            "usage": false,
+                            "length": 106
+                        },
+                        {
+                            "name": "COUNTY CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "PHONE NUMBER - HOME",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "PHONE NUMBER - BUSINESS",
+                            "data_type": "TN",
+                            "usage": false,
+                            "length": 40
+                        },
+                        {
+                            "name": "LANGUAGE - PATIENT",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 25
+                        },
+                        {
+                            "name": "MARITAL STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "RELIGION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "PATIENT ACCOUNT NUMBER",
+                            "data_type": "CK",
+                            "usage": false,
+                            "length": 20
+                        },
+                        {
+                            "name": "SSN NUMBER - PATIENT",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 16
+                        },
+                        {
+                            "name": "DRIVER'S LIC NUM - PATIENT",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 25
+                        }
+                    ]
+                },
+                {
+                    "name": "PV1",
+                    "data_type": null,
+                    "usage": true,
+                    "min": 1,
+                    "max": 18446744073709551615,
+                    "length": null,
+                    "components": [
+                        {
+                            "name": "SET ID - PATIENT VISIT",
+                            "data_type": "SI",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "PATIENT CLASS",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 1
+                        },
+                        {
+                            "name": "ASSIGNED PATIENT LOCATION",
+                            "data_type": "ID",
+                            "usage": true,
+                            "length": 12
+                        },
+                        {
+                            "name": "ADMISSION TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "PRE-ADMIT NUMBER",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 20
+                        },
+                        {
+                            "name": "PRIOR PATIENT LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "ATTENDING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "REFERRING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "CONSULTING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "HOSPITAL SERVICE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "TEMPORARY LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "PRE-ADMIT TEST INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "RE-ADMISSION INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "ADMIT SOURCE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "AMBULATORY STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "VIP INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "ADMITTING DOCTOR",
+                            "data_type": "CN",
+                            "usage": false,
+                            "length": 60
+                        },
+                        {
+                            "name": "PATIENT TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "VISIT NUMBER",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 4
+                        },
+                        {
+                            "name": "FINANCIAL CLASS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 11
+                        },
+                        {
+                            "name": "CHARGE PRICE INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "COURTESY CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CREDIT RATING",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CONTRACT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "CONTRACT EFFECTIVE DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "CONTRACT AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "CONTRACT PERIOD",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 3
+                        },
+                        {
+                            "name": "INTEREST CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "TRANSFER TO BAD DEBT CODE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "TRANSFER TO BAD DEBT DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "BAD DEBT AGENCY CODE",
+                            "data_type": "ST",
+                            "usage": false,
+                            "length": 10
+                        },
+                        {
+                            "name": "BAD DEBT TRANSFER AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "BAD DEBT RECOVERY AMOUNT",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "DELETE ACCOUNT INDICATOR",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "DELETE ACCOUNT DATE",
+                            "data_type": "DT",
+                            "usage": false,
+                            "length": 8
+                        },
+                        {
+                            "name": "DISCHARGE DISPOSITION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "DISCHARGED TO LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "DIET TYPE",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "SERVICING FACILITY",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "BED STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 1
+                        },
+                        {
+                            "name": "ACCOUNT STATUS",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 2
+                        },
+                        {
+                            "name": "PENDING LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "PRIOR TEMPORARY LOCATION",
+                            "data_type": "ID",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "ADMIT DATE/TIME",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "DISCHARGE DATE/TIME",
+                            "data_type": "TS",
+                            "usage": false,
+                            "length": 19
+                        },
+                        {
+                            "name": "CURRENT PATIENT BALANCE",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL CHARGES",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL ADJUSTMENTS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        },
+                        {
+                            "name": "TOTAL PAYMENTS",
+                            "data_type": "NM",
+                            "usage": false,
+                            "length": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        "URD": {
+            "name": "URD",
+            "long_name": "Results/update Definition",
+            "fields": [
+                {
+                    "name": "R/U DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "REPORT PRIORITY",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                },
+                {
+                    "name": "R/U WHO SUBJECT DEFINITION",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "R/U WHAT SUBJECT DEFINITION",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 3,
+                    "components": []
+                },
+                {
+                    "name": "R/U WHAT DEPARTMENT CODE",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "R/U DISPLAY/PRINT LOCATIONS",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "R/U RESULTS LEVEL",
+                    "data_type": "ID",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 1,
+                    "components": []
+                }
+            ]
+        },
+        "ERR": {
+            "name": "ERR",
+            "long_name": "Error",
+            "fields": [
+                {
+                    "name": "ERROR CODE AND LOCATION",
+                    "data_type": "ID",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 80,
+                    "components": []
+                }
+            ]
+        },
+        "URS": {
+            "name": "URS",
+            "long_name": "Unsolicited Selection",
+            "fields": [
+                {
+                    "name": "R/U WHERE SUBJECT DEFINITION",
+                    "data_type": "ST",
+                    "usage": true,
+                    "min": 1,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "R/U WHEN DATA START DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "R/U WHEN DATA END DATE/TIME",
+                    "data_type": "TS",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 19,
+                    "components": []
+                },
+                {
+                    "name": "R/U WHAT USER QUALIFIER",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                },
+                {
+                    "name": "R/U OTHER RESULTS SUBJECT DEFINI",
+                    "data_type": "ST",
+                    "usage": false,
+                    "min": 0,
+                    "max": 1,
+                    "length": 20,
+                    "components": []
+                }
+            ]
+        }
+    }
+}
