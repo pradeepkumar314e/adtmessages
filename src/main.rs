@@ -258,8 +258,9 @@ pub fn parse_msg(i: Span) -> IResult<Span, Msg> {
 
 
 async fn status() -> impl Responder{
-     let input = "MSH|^~\\&|AccMgr|1|||20050110045504||ADT^A08|599102|P|2.2|||\nEVN|A01|20050110045502|||||\nPID|1||10006579^^^1^MRN^1||DUCK^DONALD^D||19241010|M||1|111 DUCK ST^^FOWL^CA^999990000^^M|1|8885551212|8885551212|1|2||40007716^^^AccMgr^VN^1|123121234|||||||||||NO\nNK1|1|DUCK^HUEY|SO|3583 DUCK RD^^FOWL^CA^999990000|8885552222||Y||||||||||||||\nPV1|1|I|PREOP^101^1^1^^^S|3|||37^DISNEY^WALT^^^^^^AccMgr^^^^CI|||01||||1|||37^DISNEY^WALT^^^^^^AccMgr^^^^CI|2|40007716^^^AccMgr^VN|4|||||||||||||||||||1||G|||20050110045253||||||\nGT1|1|8291|DUCK^DONALD^D||111^DUCK ST^^FOWL^CA^999990000|8885551212||19241010|M||1|123121234||||#Cartoon Ducks Inc|111^DUCK ST^^FOWL^CA^999990000|8885551212||PT|\nDG1|1|I9|71596^OSTEOARTHROS NOS-L/LEG ^I9|OSTEOARTHROS NOS-L/LEG ||A|\nINSURANCE|1^MEDICARE^3^MEDICARE^^^^^^^Cartoon Ducks Inc^19891001^^^4^DUCK*DONALD*D^1^19241010^111*DUCK ST**FOWL*CA*999990000^^^^^^^^^^^^^^^^^123121234A^^^^^^PT^M^111 DUCK ST**FOWL*CA*999990000^^^^^8291|1^^123121234^Cartoon Ducks Inc^^^123121234A^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^8885551212\nINSURANCE|2^NON-PRIMARY^9^MEDICAL MUTUAL CALIF.^PO BOX 94776**HOLLYWOOD*CA*441414776^^8003621279^PUBSUMB^^^Cartoon Ducks Inc^^^^7^DUCK*DONALD*D^1^19241010^111 DUCK ST**FOWL*CA*999990000^^^^^^^^^^^^^^^^^056269770^^^^^^PT^M^111*DUCK ST**FOWL*CA*999990000^^^^^8291|2^^123121234^Cartoon Ducks Inc^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^8885551212\nINSURANCE|3^SELF PAY^1^SELF PAY^^^^^^^^^^^5^^1";
-     let (_, msg) = parse_msg(Span::new(input)).unwrap();
+     //let input = "MSH|^~\\&|AccMgr|1|||20050110045504||ADT^A08|599102|P|2.2|||\nEVN|A01|20050110045502|||||\nPID|1||10006579^^^1^MRN^1||DUCK^DONALD^D||19241010|M||1|111 DUCK ST^^FOWL^CA^999990000^^M|1|8885551212|8885551212|1|2||40007716^^^AccMgr^VN^1|123121234|||||||||||NO\nNK1|1|DUCK^HUEY|SO|3583 DUCK RD^^FOWL^CA^999990000|8885552222||Y||||||||||||||\nPV1|1|I|PREOP^101^1^1^^^S|3|||37^DISNEY^WALT^^^^^^AccMgr^^^^CI|||01||||1|||37^DISNEY^WALT^^^^^^AccMgr^^^^CI|2|40007716^^^AccMgr^VN|4|||||||||||||||||||1||G|||20050110045253||||||\nGT1|1|8291|DUCK^DONALD^D||111^DUCK ST^^FOWL^CA^999990000|8885551212||19241010|M||1|123121234||||#Cartoon Ducks Inc|111^DUCK ST^^FOWL^CA^999990000|8885551212||PT|\nDG1|1|I9|71596^OSTEOARTHROS NOS-L/LEG ^I9|OSTEOARTHROS NOS-L/LEG ||A|\nINSURANCE|1^MEDICARE^3^MEDICARE^^^^^^^Cartoon Ducks Inc^19891001^^^4^DUCK*DONALD*D^1^19241010^111*DUCK ST**FOWL*CA*999990000^^^^^^^^^^^^^^^^^123121234A^^^^^^PT^M^111 DUCK ST**FOWL*CA*999990000^^^^^8291|1^^123121234^Cartoon Ducks Inc^^^123121234A^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^8885551212\nINSURANCE|2^NON-PRIMARY^9^MEDICAL MUTUAL CALIF.^PO BOX 94776**HOLLYWOOD*CA*441414776^^8003621279^PUBSUMB^^^Cartoon Ducks Inc^^^^7^DUCK*DONALD*D^1^19241010^111 DUCK ST**FOWL*CA*999990000^^^^^^^^^^^^^^^^^056269770^^^^^^PT^M^111*DUCK ST**FOWL*CA*999990000^^^^^8291|2^^123121234^Cartoon Ducks Inc^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^8885551212\nINSURANCE|3^SELF PAY^1^SELF PAY^^^^^^^^^^^5^^1";
+     let inputt = "MSH|^~\\&|AccMgr|1|||20050110045504||ADT^A08|599102|P|2.2|||\nEVN|A01|20050110045502|||||\nPID|1||10006579^^^1^MRN^1||DUCK^DONALD^D||19241010|M||1|111 DUCK ST^^FOWL^CA^999990000^^M|1|8885551212|8885551212|1|2||40007716^^^AccMgr^VN^1|123121234|||||||||||NO\nNK1|1|DUCK^HUEY|SO|3583 DUCK RD^^FOWL^CA^999990000|8885552222||Y||||||||||||||\nPV1|1|I|PREOP^101^1^1^^^S|3|||37^DISNEY^WALT^^^^^^AccMgr^^^^CI|||01||||1|||37^DISNEY^WALT^^^^^^AccMgr^^^^CI|2|40007716^^^AccMgr^VN|4|||||||||||||||||||1||G|||20050110045253||||||\nGT1|1|8291|DUCK^DONALD^D||111^DUCK ST^^FOWL^CA^999990000|8885551212||19241010|M||1|123121234||||#Cartoon Ducks Inc|111^DUCK ST^^FOWL^CA^999990000|8885551212||PT|\nDG1|1|I9|71596^OSTEOARTHROS NOS-L/LEG ^I9|OSTEOARTHROS NOS-L/LEG ||A|\nIN1|1|MEDICARE|3|MEDICARE|||||||Cartoon Ducks Inc|19891001|||4|DUCK^DONALD^D|1|19241010|111^DUCK ST^^FOWL^CA^999990000|||||||||||||||||123121234A||||||PT|M|111 DUCK ST^^FOWL^CA^999990000|||||8291\nIN2|1||123121234|Cartoon Ducks Inc|||123121234A|||||||||||||||||||||||||||||||||||||||||||||||||||||||||8885551212\nIN1|2|NON-PRIMARY|9|MEDICAL MUTUAL CALIF.|PO BOX 94776^^HOLLYWOOD^CA^441414776||8003621279|PUBSUMB|||Cartoon Ducks Inc||||7|DUCK^DONALD^D|1|19241010|111 DUCK ST^^FOWL^CA^999990000|||||||||||||||||056269770||||||PT|M|111^DUCK ST^^FOWL^CA^999990000|||||8291\nIN2|2||123121234|Cartoon Ducks Inc||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||8885551212\nIN1|3|SELF PAY|1|SELF PAY|||||||||||5||1";
+     let (_, msg) = parse_msg(Span::new(inputt)).unwrap();
      let version = msg.version().unwrap();
     
      let filename = format!("v{}.json",version.chars().skip(1).collect::<String>());
@@ -280,6 +281,8 @@ async fn status() -> impl Responder{
     let mut parsed_msg = ParsedMsg::default();
     parsed_msg.msg_type = msgtype;
     parsed_msg.version = version;
+    
+    let mut parsed_insurance_segments = Vec::<ParsedSegment>::new();
 
     for (seg_i, seg) in msg.segments.iter().enumerate() {
     
@@ -292,10 +295,63 @@ async fn status() -> impl Responder{
             println!("{}", segment_key);  
             if segment_key.as_str().starts_with("IN"){
 
-                let insurance_seg = schema.segments.get("INSURANCE".to_string()).unwrap();
+                let insurance_seg = schema.segments.get("INSURANCE".to_string().as_str()).unwrap();
+                
+                if segment_key.as_str().starts_with("IN1"){
+                    let _seg = ParsedSegment::default();
+                    parsed_insurance_segments.push(_seg);
+                    
+                }
+
+                let insurance_parsed_segment = parsed_insurance_segments.last_mut().unwrap();
+
+                let in_number:usize = segment_key.as_str().chars().nth(2).unwrap().to_string().parse().unwrap();
+                
+
+                insurance_parsed_segment.name = insurance_seg.long_name.clone();
+                
+                
+                let mut seg_iter = seg.fields.iter().skip(0);
+                if seg_i != 0 {
+                   seg_iter = seg.fields.iter().skip(1);
+
+                }
+                let mut parsed_field = ParsedField::default();
+                parsed_field.name=segment_key.clone();
+                parsed_field.value = None;
+                parsed_field.components = vec![];
+                
+               for (field_i, field) in seg_iter.enumerate() {
+                   
+                   let insurance_seg_field = insurance_seg.fields[in_number-1].clone();
+                   if field_i >= insurance_seg_field.components.len(){break;}
+            
+            
+                    if insurance_seg_field.components.len() == 0 && field.components.len() > 0 {
+                       //this should not happen,  ignoring this  not panicking
+                
+
+                     }else {
+                
+                          //println!("\t{}", schema_seg_field.name);
+                          let field_value = field.components.iter().map(|x| x.clone()).collect::<Vec<String>>();
+                          let field_value = field_value.join("^");
+                          let schema_component_name = insurance_seg_field.components[field_i].name.clone();
+                          if !field_value.is_empty() {
+                             
+                              parsed_field.components.push(Some((schema_component_name,field_value)));
+                          }
+                       }
+               
+                }
+                insurance_parsed_segment.fields.push(Some(parsed_field));
+
+            
             }
             continue;
-        }
+         }
+
+        println!("{}", segment_key);  
         let mut schema_segment = schema_segment.unwrap();
         let mut parsed_segment = ParsedSegment::default();
 
@@ -355,6 +411,10 @@ async fn status() -> impl Responder{
         parsed_msg.segments.push(Some(parsed_segment));
     }
     
+    for insurance_seg in parsed_insurance_segments{
+        parsed_msg.segments.push(Some(insurance_seg));
+    }
+
     let jsoon = serde_json::to_string(&parsed_msg).unwrap();
     jsoon
 
@@ -372,3 +432,7 @@ async fn main() -> io::Result<()> {
    .await
 
 }
+
+// fn main(){
+//     status();
+// }
